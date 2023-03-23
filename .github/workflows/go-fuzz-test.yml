@@ -13,7 +13,6 @@ jobs:
         uses: jidicula/go-fuzz-action@v1.2.0
 
         with:
-          packages: './...'
           fuzz-time: 30s
           fuzz-minimize-time: 1m
           fuzz-regexp: OtherFuzzRegexp
