@@ -10,6 +10,11 @@ type UserController struct {
 	*revel.Controller
 }
 
+func (c UserController) TestPullRequest() revel.Result {
+	return c.RenderText("Hello World")
+
+}
+
 // GetUserById...
 func (c UserController) GetUserById(id int) revel.Result {
 	db := connect()
