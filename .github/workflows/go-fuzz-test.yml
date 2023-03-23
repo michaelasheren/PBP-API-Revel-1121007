@@ -14,5 +14,3 @@ jobs:
 
         with:
           fuzz-time: 30s
-          fuzz-minimize-time: 1m
-          fuzz-regexp: OtherFuzzRegexp
